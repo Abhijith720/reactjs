@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Profile card using JS</title>
+</head>
+<body>
+	<section class="parent">
+		<article class="child">
+			
+		</article>
+	</section>
+
+</body>
+</html>
+<script>
+	var parent=document.querySelector(".parent");
+	var child=document.querySelector(".child");
+	var heading=document.createElement("h2");
+	heading.textContent="Abhijith";
+	var role=document.createElement("h4");
+	role.textContent="Developer";
+	var email=document.createElement("a");
+	email.textContent="xyz@gmail.com"
+	email.href="mailto : xyz@gmail.com";
+	child.append(heading)
+	child.append(role)
+	child.append(email)
+	parent.append(child)
+</script>

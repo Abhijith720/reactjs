@@ -1,0 +1,16 @@
+{
+	"profiles":[
+		{
+		"profileinfo":{
+			"name":"Abhijith",
+			"role":"Web Developer"
+		}
+		},
+		{
+			"profileinfo":{
+				"name":"Mohan",
+				"role":"App Developer"
+			}
+		}
+	]
+}

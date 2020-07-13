@@ -1,0 +1,10 @@
+*{
+	font-family: monospace;
+}
+header{
+	background: #2755a7;
+	color: #fff;
+	padding: 0.5%;
+	box-shadow: 0px 8px 8px -8px #000;
+
+}
