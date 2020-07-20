@@ -1,0 +1,21 @@
+{
+    "profiles":[
+        {
+            "basics":{
+                "name":"Abhijith G",
+                "role":"Web Developer",
+                "email":"xyz@gmail.com",
+                "mobile":"123",
+                "address":"Vijayawada"
+            }      },
+        {
+            "basics":{
+                "name":"Mohan P",
+                "role":"App Developer",
+                "email":"xyz@gmail.com",
+                "mobile":"123",
+                "address":"Nagpur"
+            }   
+        }
+    ]
+}

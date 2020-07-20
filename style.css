@@ -8,3 +8,49 @@ header{
 	box-shadow: 0px 8px 8px -8px #000;
 
 }
+.parent{
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: center;
+}
+.child_two{
+	width: 65%;
+	padding: 1%; 
+	margin: 1%;
+	border: 1px solid #ddd;
+	box-shadow: 0px 8px 8px -8px #000;
+}
+.role{
+	color: ##d6d4d2;
+	font-style: italic;
+}
+.link{
+	text-decoration: none;
+	word-wrap: break-word;
+	display: block;
+}
+.skill{
+	margin: 1%;
+	padding: 1%;
+	border-radius: 10px;
+	box-shadow: 0px 8px 8px -8px #000;
+	background: #424cb4
+
+	border:1px solid #1c2363;
+}
+@media only screen and (min-width: 480px) and (max-width:768px){
+	.child_one,
+	.child_two{
+		width:95%;
+		background: #edfof5;
+		font-size: 25px;
+	}
+}
+@media only screen and (min-width: 480px) and (max-width:768px){
+	.child_one,
+	.child_two{
+		width:45%;
+		background: #f8f2e6;
+		font-size: 18px;
+	}
+}

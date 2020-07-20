@@ -7,9 +7,44 @@
 		}
 		},
 		{
-			"profileinfo":{
-				"name":"Mohan",
-				"role":"App Developer"
+			"details":{
+				"summary":[
+					"Pursuing B.Tech specialized in Computer Science and Engineering",
+					"Built projects using the languages like HTML, CSS, JAVASCRIPT"
+				],
+				"education":[
+					{
+						"Degree":"CSE",
+						"Institute":"SRM(2018-2022)",
+						"Percentage":"100%"
+					},{
+						"Degree":"Intermediate(MPC)",
+						"Institute":"Sri Chaitanya",
+						"Percentage":"92.5"
+					},{
+						"Degree":"SSC",
+						"Institute":"RBPS",
+						"Percentage":"98%"
+					}
+				],
+				"skills":[
+					{
+						"type":"Programming Languages",
+						"values":["C","C++","Java"]
+					},
+					{
+						"type":"Web Technologies",
+						"values":["HTML","CSS","JS"]
+					},
+					{
+						"type":"Frameworks",
+						"values":["Bootstrap","Reactjs","Express"]
+					},
+					{
+						"type":"Databases",
+						"values":["Oracle","mysql","sqLite","mongo"]
+					}
+				]
 			}
 		}
 	]
